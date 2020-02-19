@@ -77,6 +77,10 @@ max-width:600px;
 border-radius:10px;
 }
 
+.smartphone{
+   display: none;
+}
+
 .topdiv{
    width: 100%;
    background-color: #2394bc;
@@ -90,9 +94,8 @@ border-radius:10px;
 }
 
 .titulo{
-   color: #18436A;   
-   
-   text-align: center;   
+   color: #18436A;      
+   text-align: center;
 }
 
 .logo-wifi{
@@ -101,14 +104,19 @@ border-radius:10px;
 
 .numbers{
    color: #18436A; 
-   text-align: center;
-   /*border-radius: 50%;
-   width: 25px;
-   height: 25px;
-   padding: 8px;
-   background: #fff;
-   border: 1px solid #000;
-   color: #000;
-   text-align: center;
-   font-size: 20px;*/
+   text-align: center;   
+}
+
+
+@media (max-width: 768px) {
+   .titulo .title-thanks{
+      display: none;
+   }
+   .logo-wifi{
+      width: 3rem;
+   }
+
+   .NO-CACHE{
+      height: 70vh;
+   }
 }
