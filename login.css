@@ -1,6 +1,7 @@
 body {
-min-width: 250px;
-overflow-x:hidden;
+   background-color: #efefef;
+   min-width: 250px;
+   overflow-x:hidden;
 }
 .login{font-family:arial;color:#fff;padding:0px 0 0 0}.login .logo{display:block;border-radius: 10px;margin:0 auto 0px}.login a,.login a:visited{text-decoration:underline;color:inherit}ul.notice{margin:30px auto;width:300px;text-align:center;list-style-position:inside;font-size:15px;padding:20px 30px;border-radius:3px}ul.notice.errors{background-color:#fff4f4;border:1px solid #f50909;color:#f50909}ul.notice.success{background-color:#d7eacd;border:1px solid #6fae4f;color:#6fae4f}ul.notice li{padding:5px 0}.vertical-form{margin:0 auto}.vertical-form legend{width:100%;font-size:24px;font-weight:500;text-align:center;margin:0 0 30px 0}.vertical-form input[type='text'],.vertical-form input[type='password'],.vertical-form input[type='number']{border:1px #c1c1c1 solid;
 color:#c1c1c1;background:#ffffff;height:50px;font-size:18px}.vertical-form input[type='text'],.vertical-form input[type='password'],.vertical-form input[type='submit'],.vertical-form input[type='number']{display:block;margin:0 auto 18px auto;width:250px;text-align:center;border-radius:5px;color:#838383;outline:none;font-family:inherit}
@@ -118,5 +119,9 @@ border-radius:10px;
 
    .NO-CACHE{
       height: 70vh;
+   }   
+
+   .fill-spacing{
+      display: none;
    }
 }
